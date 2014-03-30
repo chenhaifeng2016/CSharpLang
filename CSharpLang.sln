@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSAsyncExampleWPF_Async_HttpClient_Multiples", "MultipleWebRequests\CSAsyncExampleWPF_Async_HttpClient_Multiples.csproj", "{81323B22-C5F1-4C9D-828A-39DF14E315BD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AsyncTracer", "ControlFlow\AsyncTracer\AsyncTracer.csproj", "{DB7ECECD-928D-4070-881A-CF63F6211A02}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AsyncFirstExample", "AsyncFirstExample\AsyncFirstExample\AsyncFirstExample.csproj", "{44B3DA2A-2CFD-4DC2-BFC6-CD06DA23A8E3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "async await", "async await", "{C13F0FA4-D667-40BC-A547-1B19116D9632}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{81323B22-C5F1-4C9D-828A-39DF14E315BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{81323B22-C5F1-4C9D-828A-39DF14E315BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{81323B22-C5F1-4C9D-828A-39DF14E315BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{81323B22-C5F1-4C9D-828A-39DF14E315BD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DB7ECECD-928D-4070-881A-CF63F6211A02}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DB7ECECD-928D-4070-881A-CF63F6211A02}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DB7ECECD-928D-4070-881A-CF63F6211A02}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DB7ECECD-928D-4070-881A-CF63F6211A02}.Release|Any CPU.Build.0 = Release|Any CPU
+		{44B3DA2A-2CFD-4DC2-BFC6-CD06DA23A8E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{44B3DA2A-2CFD-4DC2-BFC6-CD06DA23A8E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{44B3DA2A-2CFD-4DC2-BFC6-CD06DA23A8E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{44B3DA2A-2CFD-4DC2-BFC6-CD06DA23A8E3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{44B3DA2A-2CFD-4DC2-BFC6-CD06DA23A8E3} = {C13F0FA4-D667-40BC-A547-1B19116D9632}
+		{DB7ECECD-928D-4070-881A-CF63F6211A02} = {C13F0FA4-D667-40BC-A547-1B19116D9632}
+		{81323B22-C5F1-4C9D-828A-39DF14E315BD} = {C13F0FA4-D667-40BC-A547-1B19116D9632}
+	EndGlobalSection
+EndGlobal
